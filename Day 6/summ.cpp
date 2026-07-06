@@ -9,8 +9,10 @@ int main(){
     for(int i=0; i<5; i++){
         for(int j=i+1; j<5; j++){
             sum=arr[i]+arr[j];
-            if(sum==target)
-            cout<<i<<","<<j;
+            if(sum==target){
+            cout<<i<<","<<j<<endl;
+            cout<<"Element="<<arr[i]<<","<<arr[j]<<endl;
+            }
         }
     }
 }
