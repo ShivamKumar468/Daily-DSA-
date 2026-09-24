@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    string s ="Shivam";
+    for(int i=0;i<s.length();i++){
+        cout<<s[i]<<endl;
+    }
+
+}
+
+//name.tocharArray()
